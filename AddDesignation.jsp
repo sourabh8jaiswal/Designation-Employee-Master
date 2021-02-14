@@ -1,0 +1,12 @@
+<%@taglib uri='/WEB-INF/mytags/tmtags.tld' prefix='tm' %>
+<tm:Backdoor>
+<jsp:forward page='/LoginForm.jsp' />
+</tm:Backdoor>
+<tm:FormResubmitted>
+<tm:Module name="HOME" />
+<jsp:forward page='/notifyFormResubmission' />
+</tm:FormResubmitted>
+<tm:Module name="DESIGNATION" />
+<jsp:useBean id='designationBean' scope='request' class='com.thinking.machines.hr.beans.DesignationBean' />
+<jsp:setProperty name='designationBean' property='*' />
+<jsp:forward page='/addDesignation' />
