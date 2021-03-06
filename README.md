@@ -7,3 +7,13 @@ This application is used to manage the records of employees and designations in 
 3. Compile the code before running it
 4. Start the tomcat server
 5. Open Chrome or any browser and type http://localhost:8080/application_folder_name in the Address bar.
+
+## Dependencies
+- Java
+- J2EE
+- Servlets
+- JSP
+- MySQL
+
+## What the app looks like
+
